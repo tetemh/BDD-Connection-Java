@@ -1,4 +1,4 @@
-package eu.tetemh.jobs.bdd;
+package eu.tetemh.exemple.bdd;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
