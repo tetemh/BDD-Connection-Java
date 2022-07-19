@@ -10,7 +10,7 @@ public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        sql = new SqlConnection("jdbc:mysql://", "87.106.169.47:3309", "s101_survival", "u101_L4pktagWro", "b+k!+@LXBzO1hX+lvwpkRGPe");
+        sql = new SqlConnection("jdbc:mysql://", "87.106.169.47:3309", "s101_survival", "", "");
         sql.connection();
         Main.instance = this;
     }
